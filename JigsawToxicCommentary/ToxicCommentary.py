@@ -6,7 +6,7 @@ source_folder_path = '~/Documents/Kaggle/JigsawToxicCommentClassification';
 target_folder_path = '~/Documents/Kaggle/JigsawToxicCommentClassification';
 
 if source_folder_path.startswith('~/'):
-    source_folder_path = 
+    source_folder_path = os.path.expanduser(source_folder_path);
 
 # meanings and
 # their column numbers
